@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/root_linear_layout"
+        android:orientation="vertical"
+        android:layout_margin="16dp"
+        android:gravity="center"
+        tools:context=".MainActivity">
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Your Name"
+            android:id="@+id/text_to_edit"/>
+
+    <Button
+            android:layout_width="match_parent"
+            android:id="@+id/btn_to_shopping_list"
+            android:text="SHOP"
+            android:background="#00ff99"
+            android:layout_height="wrap_content"/>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:id="@+id/linear_layout_container"
+            android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
